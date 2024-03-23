@@ -50,7 +50,7 @@ class Script:
         distance = abs(get_pos(player)[0] - get_pos(enemy)[0])
 
         if distance == 1:
-            return HEAVY
+            return LIGHT
         
         return FORWARD
         
